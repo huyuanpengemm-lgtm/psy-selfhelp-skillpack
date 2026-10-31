@@ -1,0 +1,32 @@
+# ── 绝对不入库：书源与中间产物 ──
+# 这些是本项目蒸馏时的输入，含版权书全文，绝不能推到 GitHub
+books/
+cleaned/
+src/
+*.epub
+*.pdf
+护栏旁注/
+_背景参考/
+
+# ── 构建与临时 ──
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+node_modules/
+.venv/
+venv/
+
+# ── 个人与密钥 ──
+.env
+.env.*
+*.key
+*.pem
+secrets/
+.workbuddy/
+
+# ── 不发布的内部文档 ──
+docs/_内部/
+*.tmp
+*.bak
+*.orig
